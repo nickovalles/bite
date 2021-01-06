@@ -29,6 +29,39 @@ body{
   margin-left: 20px;
 }
 
+#results-top{
+  padding: 20px;
+  text-align: center;
+  border-bottom : 3px solid #fff;
+  height: 100px;
+}
+
+#results-bottom{
+  margin: 0 auto;
+}
+
+#results-bottom .col{
+  margin : 10px 15px;
+  padding : 0px;
+}
+
+#content-results, #content-map{
+  border: 5px solid #fff;
+  color: #fff;
+  height: 530px;
+}
+
+#content-results{
+  overflow-y: scroll;
+}
+
+.td-results-r{
+  display: block;
+  width: 20px;
+  height: 10px;
+  background: url('../images/star.png') /* no repeat, stackoverflow */no-repeat;
+}
+
 /* STORAGE (session/local) */
 .bookmark-icon{
   width: 10px;
