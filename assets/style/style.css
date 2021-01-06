@@ -17,3 +17,14 @@ body{
 }
 
 /* RESULTS */
+#results-page{
+  background-image: url("../images/night-time.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+#results-page .btn-group{
+  margin-left: 20px;
+}
