@@ -16,13 +16,25 @@ body{
   background-image: url("../images/blue-food-truck.jpg");
 }
 
-/* RESULTS */
-#results-page{
-  background-image: url("../images/night-time.jpg");
+#landing-page-weather{
+  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
+  padding-top: -100rem;
   min-width: 100vw;
+  background-image: url("../images/night-time.jpg");
+  color: #fff;
+}
+
+/* RESULTS */
+#results-page{
+  background-image: url("../images/night-time.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+  margin-left: 50;
 }
 
 #results-page .btn-group{
@@ -135,6 +147,15 @@ body{
   border-color: red;
 }
 
+#weather-btn {
+  background-color: red;
+  width: 300px;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 15rem;
+  border-color: red;
+}
+
 #add-btn:hover {
   background: green;
   border-color: green;
@@ -174,6 +195,7 @@ a:link {
 #selected-value, #selected-food{
   background-color: red;
   color: #fff;
+  border-radius: 15rem;
 }
 
 #food-menu, #number-menu{
@@ -194,6 +216,11 @@ a:link {
 .red{
   color : red;
 }
+
+
+
+
+/* NAV style end */
 
 /* IMG STYLING, potenitally for reviews and maps? */
 
