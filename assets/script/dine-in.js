@@ -32,3 +32,4 @@ function getSushi(cityName) {
 // Conditions
 
 // Check Storage
+checkStorage();
