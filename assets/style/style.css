@@ -13,6 +13,7 @@ body{
   background-size: cover;
   min-height: 100vh;
   min-width: 100vw;
+  background-image: url("../images/blue-food-truck.jpg");
 }
 
 /* RESULTS */
