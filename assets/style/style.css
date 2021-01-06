@@ -1,0 +1,18 @@
+/* BODY */
+body{
+  margin: 0 auto;
+  font-family:'Playfair Display SC', 'Arial Black',  serif;
+}
+
+/* GLOBAL */
+
+/* LANDING PAGE */
+#landing-page{
+  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+/* RESULTS */

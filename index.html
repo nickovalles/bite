@@ -13,9 +13,53 @@
 
 <body>
 <!-- Landing Page -->
-
+<div class="container" id="landing-page">
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-12" id="heading">
+      <h1 id="title"> bite me 
+        <!--https://fontawesome.com/icons/utensils?style=solid  -->
+      <i class="fa fa-cutlery" aria-hidden="true"></i></h1>
+    </div>	
+  </div>		
+    <div class="row">	
+    <div class="col-md-12 col-sm-12 col-12">
+      <input type="text" name="address" id="user-input" placeholder="Enter your location" required >
+      <button class="btn btn-info" id="add-btn" type="submit" value="submit">feed me</button>
+    </div>
+  </div>
+  </div>
 <!-- Curated Results -->
-
+<div class="container" id="results-page">
+  <div class ="row" id="results-top">
+    <div class="col-md-10 col-sm-10 col-10">
+      <input type="text" name="address" id="page-input" placeholder="Enter location" required >
+      <button class="btn btn-info" id="page-btn" type="submit" value="submit">keep looking!</button>
+      <div class="btn-group">
+        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" 
+        id="selected-value">
+        10
+        </button>
+        <div class="dropdown-menu" id="number-menu">
+          <a class="dropdown-item" href="#">5</a>
+          <a class="dropdown-item" href="#">10</a>
+          <a class="dropdown-item" href="#">15</a>
+          <!-- Check Distance, Maybe 20 -->
+        </div>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" 
+        id="selected-food"> Cuisine </button>
+        <div class="dropdown-menu" id="food-menu">
+          <!-- Italian,Indian,Cafe -->
+          <a class="dropdown-item" href="#">All</a>
+          <a class="dropdown-item" href="#"></a>
+          <a class="dropdown-item" href="#"></a>
+          <a class="dropdown-item" href="#"></a>
+          <a class="dropdown-item" href="#"></a>
+          <a class="dropdown-item" href="#"></a>
+        </div>
+      </div>
+    </div>
 <!-- Food/Types -->
 
 <!-- Bottom for General Info -->
