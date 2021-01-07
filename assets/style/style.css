@@ -8,22 +8,20 @@ body{
 
 /* LANDING PAGE */
 #landing-page{
-  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  background: rgb(228, 225, 225);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
   min-width: 100vw;
-  background-image: url("../images/blue-food-truck.jpg");
 }
 
 #landing-page-weather{
-  background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  background: rgb(71, 70, 70);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: -100rem;
   min-height: 100vh;
   min-width: 100vw;
-  background-image: url("../images/night-time.jpg");
   color: #fff;
   height: 100%;
   background-position: center;
@@ -36,7 +34,7 @@ body{
 
 /* RESULTS */
 #results-page{
-  background-image: url("../images/night-time.jpg");
+  background: rgb(71, 70, 70);
   background-repeat: repeat;
   background-size: cover;
   min-height: 100vh;
@@ -122,7 +120,7 @@ body{
 
 /* INPUT */
 #user-input {
-  margin-left: 680px;
+  margin-left: 470px;
   width : 400px;
   padding: 10px;
   /* rounded edges look better??? */
@@ -161,11 +159,12 @@ body{
   margin-left: 20px;
   border-radius: 15rem;
   border-color: red;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 #add-btn:hover {
-  background: green;
-  border-color: green;
+  background: rgb(216, 77, 77);
+  border-color: rgb(216, 77, 77);
 }
 
 
@@ -175,7 +174,7 @@ body{
 }
 
 #title {
-  color: white;
+  color: red;
   font-size: 100px;
   text-align: center;
   font-weight: bold;
@@ -196,7 +195,7 @@ body{
 }
 
 a:link {
-  color: red
+  color: black;
 }
 
 #selected-value, #selected-food{
@@ -224,6 +223,30 @@ a:link {
   color : red;
 }
 
+
+footer {
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer h2 {
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: #024e76;
+}
 
 
 
