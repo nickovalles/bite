@@ -224,28 +224,37 @@ a:link {
 }
 
 
-footer {
-  background: #fce138;
-  width: 100%;
-  padding: 40px 35px;
+.navbar {
+  font-size: 1.2rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.navbar .css-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+.navbar .logo {
+  font-size: 2rem;
+}
+
+.navbar ul {
+  justify-self: flex-end;
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-footer h2 {
-  color: #024e76;
-  font-size: 30px;
-  margin: 0;
+.navbar a {
+  padding: 0 1rem;
+  color: red;
+  text-decoration: none;
 }
 
-footer div {
-  line-height: 1.5;
-  text-align: right;
-}
-
-footer a {
-  color: #024e76;
+.navbar a:hover {
+  color: #555;
 }
 
 

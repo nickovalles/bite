@@ -205,6 +205,7 @@ function getDirections(start, end, id){
 
   if(mode == undefined || mode == null || mode == "")
     mode = "WALKING";
+    //mode = "DRIVING";
 
   console.log("Mode set", mode);
 

@@ -51,14 +51,6 @@ $("#user-input").keypress(function(event) {
     }
 });
 
-$("#back2Top").click(function(event) {
-    event.preventDefault();
-    localStorage.clear();
-    $("html, body").animate({ 
-        scrollTop: 0 }, "slow");
-    return false;
-});
-
 // INPUT END
 
 
