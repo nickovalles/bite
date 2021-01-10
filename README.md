@@ -15,6 +15,13 @@ The site has a codebase that follows accessibility standards so that it is optim
 
 ![image](/assets/images/user-story.PNG)
 
+-----
+
+
+## Technologies Used
+
+HTML, CSS, JavaScript
+Yelp API, Open Weather App API, Google Maps API
 
 -----
 
