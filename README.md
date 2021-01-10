@@ -13,7 +13,7 @@ The site has a codebase that follows accessibility standards so that it is optim
 
 ## User Story
 
-![image](/assets/images/user-story.PNG)Weather Dashboard App Screenshot
+![image](/assets/images/user-story.PNG)
 
 
 -----
